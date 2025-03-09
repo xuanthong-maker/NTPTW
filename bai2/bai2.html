@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khóa Học Sắp Khai Giảng</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .course {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: calc(33.33% - 20px);
+            transition: transform 0.3s ease;
+            box-sizing: border-box;
+        }
+        .course:hover {
+            transform: translateY(-5px);
+        }
+        .course img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .course .info {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0;
+        }
+        
+        
+        h4,p,li{
+            text-align: left;
+        }
+        li{
+            list-style-type:none;
+            list-style: none;
+        }
+        h1{
+        font-size: 22px; /* Điều chỉnh kích thước phù hợp */
+        font-weight: bold;
+        color: #C00000; /* Màu đỏ giống trong ảnh */
+        text-transform: uppercase; /* Chữ in hoa */
+        border-left: 5px solid #C00000; /* Tạo đường viền trái */
+        padding-left: 10px; /* Canh lề chữ */
+        box-sizing: border-box;
+        }   
+    </style>
+</head>
+<body>
+    <h1 class="container"> Khóa Học Sắp Bắt Đầu </h1>
+    <div class="container">
+        <div class="course">
+            <img src="https://aptech.vn/wp-content/uploads/2023/05/banner-hoc-bong-chien-binh-IT-hanoiaptech-1536x606.png.webp" alt="Lập trình viên Quốc tế">
+            
+            <h4>LẬP TRÌNH VIÊN QUỐC TẾ</h2>
+            <p>Chương trình đào tạo chuẩn quốc tế và toàn diện. Phù hợp với học sinh tốt nghiệp THPT, sinh viên và người định hướng theo nghề lập trình chuyên nghiệp.</p>
+            <ul class="info">
+                <li><i class='bx bxs-gift' style='color:#f31c1c'  ></i>Ưu đãi giảm 15% học phí</li>
+                <li><i class='bx bxs-time-five' style='color:#f31c1c' ></i>Khai giảng: 2/2024</li>
+                <li><i class='bx bxs-bookmark' style='color:#eb1e1e'  ></i>Thời lượng: 2 - 2.5 năm</li>
+            </ul>
+        </div>
+        <div class="course">
+            <img src="https://aptech.vn/wp-content/uploads/2023/08/banner-1920x750_ITT.png.webp" alt="Lập trình Web Fullstack">
+            
+            <h4>LẬP TRÌNH WEB FULLSTACK</h2>
+            <p>Khóa học phù hợp với người bắt đầu lập trình hoặc người chuyển nghề. Trang bị từ frontend đến backend, xây dựng website hoàn chỉnh sau khóa học.</p>
+            <ul class="info">
+                <li><i class='bx bxs-gift' style='color:#f31c1c'  ></i>Ưu đãi giảm 15% học phí</li>
+                <li><i class='bx bxs-time-five' style='color:#f31c1c' ></i>Khai giảng: 2/2024</li>
+                <li><i class='bx bxs-bookmark' style='color:#eb1e1e'  ></i>Thời lượng: 6 tháng</li>
+            </ul>
+        </div>
+        <div class="course">
+            <img src="https://aptech.vn/wp-content/uploads/2021/05/lap-trinh-java.png.webp" alt="Lập trình Java Fullstack">
+            
+            <h4>LẬP TRÌNH JAVA FULLSTACK</h2>
+            <p>Phát triển ứng dụng web từ cơ bản đến nâng cao bằng Java, các ứng dụng doanh nghiệp sử dụng J2EE, Servlet, JSP, Spring Framework, EJB,...</p>
+            <ul class="info">
+                <li><i class='bx bxs-gift' style='color:#f31c1c'  ></i>Ưu đãi giảm 15% học phí</li>
+                <li><i class='bx bxs-time-five' style='color:#f31c1c' ></i>Khai giảng: 2/2024</li>
+                <li><i class='bx bxs-bookmark' style='color:#eb1e1e'  ></i>Thời lượng: 236 giờ</li>
+            </ul>
+        </div>
+        <div class="course">
+            <img src="https://aptech.vn/wp-content/uploads/2021/05/lap-trinh-php.png.webp" alt="Lập trình SQL Server">
+           
+            <h4>LẬP TRÌNH PHP & Laravel</h2>
+            <p>PHP là một trong các ngôn ngữ thiết kế web mạnh nhất. </p>
+            <ul class="info">
+                <li><i class='bx bxs-gift' style='color:#f31c1c'  ></i>Học phí: 4.500.000 VNĐ</li>
+                <li><i class='bx bxs-time-five' style='color:#f31c1c' ></i>Khai giảng: 2/2024</li>
+                <li><i class='bx bxs-bookmark' style='color:#eb1e1e'  ></i>Thời lượng: 30 giờ</li>
+            </ul>
+        </div>
+        <div class="course">
+            <img src="https://aptech.vn/wp-content/uploads/2021/05/lap-trinh-.net_.png.webp" alt="Lập trình PHP & Laravel">
+            
+            <h4>KHÓA HỌC LẬP TRÌNH .NET</h2>
+            <p>Phát triển ứng dụng web sử dụng nền tảng ASP.NET Core MVC. Để học tốt khóa học yêu cầu học viên đã có kiến thức C# và Frontend.</p>
+            <ul class="info">
+                <li><i class='bx bxs-gift' style='color:#f31c1c'  ></i>Học phí: 9.600.000 VNĐ</li>
+                <li><i class='bx bxs-time-five' style='color:#f31c1c' ></i>Khai giảng: 5/2024</li>
+                <li><i class='bx bxs-bookmark' style='color:#eb1e1e'  ></i>Thời lượng: 36 giờ</li>
+            </ul>
+        </div>
+        <div class="course">
+            <img src="https://aptech.vn/wp-content/uploads/2021/06/lap-trinh-csdl-voi-sql.png.webp" alt="Khóa học lập trình .NET">
+            
+            <h4>Lập trình SQL Server</h2>
+            <p>Trang bị những kiến thức nền tảng vững chắc về SQL Server như các kỹ thuật: lọc dữ liệu, phân tích, thiết kế và quản trị cơ sở dữ liệu,...</p>
+            <ul class="info">
+                <li><i class='bx bxs-gift' style='color:#f31c1c'  ></i>Học phí: 6.000.000 VNĐ</li>
+                <li><i class='bx bxs-time-five' style='color:#f31c1c' ></i>Khai giảng: 2/2024</li>
+                <li><i class='bx bxs-bookmark' style='color:#eb1e1e'  ></i>Thời lượng: 40 giờ</li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
